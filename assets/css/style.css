@@ -1,5 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Lobster&display=swap');
 
+body {
+    font-family: "Cabin", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.ricomida {
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-size: 37px;
+    font-style: normal;
+  }
+
+.ricomida2 {
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    font-style: normal;
+  }
 
 .customcolor {
     background-color: #373A3C;
 }
+
+.nav-item {
+    font-size: 16px;
+}
+
+.principal {
+    
+}
+
+#title_main {
+    font-size: 40px;
+    font-weight: 700;
+}
+
