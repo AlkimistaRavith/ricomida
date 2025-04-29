@@ -37,3 +37,27 @@ body {
     font-weight: 700;
 }
 
+.receta {
+    font-size: 16px;
+}
+
+.card-title {
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.card-body {
+    font-size: 16px;
+}
+
+.suscripcion {
+    height: 400px;
+}
+
+.empezar {
+    width: 233px;
+}
+
+.foot {
+    height: 125px;
+}

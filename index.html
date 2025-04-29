@@ -36,18 +36,26 @@
         </div>
     </nav>
     
-    <section class="container principal">
-        <hr class="border border-black border-2 opacity-100"> 
-            <img src="assets/img/principal.jpg"  class="col-12 col-md-6 float-md-start">
-        <div class="d-grid gap-1 row-gap-3 py-5 px-4">       
+    <hr class="border border-black border-2 opacity-100"> 
+    <section class="container principal py-5">
+      <div class="row text-center text-md-start g-5">
+        <div class="col-md-6">
+          <img src="assets/img/principal.jpg"  class="img-fluid rounded">
+        </div>
+        <div class="col-md-6 d-flex flex-column justify-content-between h-100">       
             <h1 id="title_main">PIZZA AL ESTILO CHICAGO CON ESPINACAS Y CHAMPIÑONES</h1>
             <hr class="border border-black border-2 opacity-100">
             <h4 id="tiempo">110 MIN / 6 A 8 PORCIONES</h4>
-            <div>
-                <button type="button" class="btn btn-outline-secondary">Enviar por correo</button>
-                <button type="button" class="btn btn-outline-secondary">Añadir a favoritos</button>
+            <div class="d-flex gap-3 justify-content-center">
+              <button id="btn1" type="button" class="btn btn-outline-secondary" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Tooltip on bottom">
+                Enviar por correo
+              </button>
+              <button type="button" class="btn btn-outline-secondary" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="Tooltip on right">
+                Añadir a favoritos
+              </button>
             </div>
         </div>
+      </div>
     </section>
 
     <section class="carrusel d-none d-lg-block p-3">
@@ -86,18 +94,21 @@
     </section>
 
     <section>
-        <div>
-            <h4>INGREDIENTES</h4>
-            <p>
-                Masa <br>20 gr de levadura seca instantánea <br>1 cucharadita de azúcar <br>500 ml agua tibia <br>100 ml aceite vegetal <br>4 cucharadas de aceite de oliva <br>65 gr harina de maíz fina (chuchoca) <br>2 cucharaditas de sal <br>625 gr harina <br><br>Salsa <br>5 cucharadas de aceite de oliva <br>½ cebolla picada en cubos finos <br>2 cucharaditas de sal <br>3 cucharadas de Orégano Gourmet <br>1 ½ cucharadas de Albahaca Gourmet <br>2 tarro de tomates en cubos al natural <br>2 cucharaditas de azúcar <br><br>Relleno <br>½ cebolla, en cubos <br>500 gr hojas de espinacas picadas <br>400 gr de champiñones, laminados <br>300 gr de queso mozarella. <br>4 cucharadas queso parmesano</p>
+      <div class="receta container row ps-5">
+        <div class="col-md-6">
+          <p class="text-decoration-underline"><strong>INGREDIENTES</strong></p>
+          <p>
+              Masa <br>20 gr de levadura seca instantánea <br>1 cucharadita de azúcar <br>500 ml agua tibia <br>100 ml aceite vegetal <br>4 cucharadas de aceite de oliva <br>65 gr harina de maíz fina (chuchoca) <br>2 cucharaditas de sal <br>625 gr harina <br><br>Salsa <br>5 cucharadas de aceite de oliva <br>½ cebolla picada en cubos finos <br>2 cucharaditas de sal <br>3 cucharadas de Orégano Gourmet <br>1 ½ cucharadas de Albahaca Gourmet <br>2 tarro de tomates en cubos al natural <br>2 cucharaditas de azúcar <br><br>Relleno <br>½ cebolla, en cubos <br>500 gr hojas de espinacas picadas <br>400 gr de champiñones, laminados <br>300 gr de queso mozarella. <br>4 cucharadas queso parmesano</p>
         </div>
-        <div>
-            <h4>PREPARACIÓN</h4>
-            <p>
-                1. Para la masa, disolver la levadura y el azúcar en agua tibia en un bol grande. Dejar reposar 2 minutos. Agregar el aceite, la harina de maíz, sal y 400gr de harina. Mezclar bien. Amasar y agregar el resto de harina, la cantidad necesaria para tener una masa blanda. Poner en el mesón y amasar por 5 minutos o hasta tener una masa lisa y elástica (agregar harina en el mesón a medida que se va amasando para que la masa no se pegue) . Poner la masa en un bol aceitado, tapar con un paño de cocina limpio y dejar reposar hasta que la masa duplique su volumen (leudar). Golpear la masa para que baje y luego dejar leudar por 40 minutos adicionales. <br><br>2. Mientras tanto preparar la salsa: Calentar 4 cucharadas de aceite en una olla a fuego medio. Agregar la cebolla, Orégano Gourmet, Albahaca Gourmet, sal y cocinar hasta que la cebolla esté dorada. Agregar el ajo y cocinar por 30 segundos. Agregar los tomates junto al jugo del tarro, a la mezcla de cebolla. Agregar el azúcar y cocinar hasta que la mezcla se haya reducido y espesado, como 30 minutos. Sazonar con sal y pimienta a gusto. Reservar. <br><br>3. Relleno: Cocinar las chalotas en el aceite de oliva hasta que estén transparentes. Agregar los champiñones y las espinacas, cocinar hasta que estén cocidos y se haya evaporado todo el líquido que hayan votado los vegetales. Reservar. <br><br>4. Calentar el horno a 220C. <br><br>5. Una vez que la masa haya reposado, dividirla en dos bolas. Estirar cada masa para cubrir dos moldes (desmontables) de 26 cm, hacer un borde de 5 cm con la masa. Dividir el relleno entre las dos pizza, tapar con el queso mozarella, luego terminar con la salsa de tomates y finalmente espolvorear el queso rallado. <br><br>6. Hornear por 35 a 40 minutos o hasta que el relleno esté caliente y la base esté esponjosa y dorada. Esperar unos minutos antes de desmoldar.
+        <div class="col-md-6">
+          <p class="text-decoration-underline"><strong>PREPARACIÓN</strong></p>
+          <p>
+              1. Para la masa, disolver la levadura y el azúcar en agua tibia en un bol grande. Dejar reposar 2 minutos. Agregar el aceite, la harina de maíz, sal y 400gr de harina. Mezclar bien. Amasar y agregar el resto de harina, la cantidad necesaria para tener una masa blanda. Poner en el mesón y amasar por 5 minutos o hasta tener una masa lisa y elástica (agregar harina en el mesón a medida que se va amasando para que la masa no se pegue) . Poner la masa en un bol aceitado, tapar con un paño de cocina limpio y dejar reposar hasta que la masa duplique su volumen (leudar). Golpear la masa para que baje y luego dejar leudar por 40 minutos adicionales. <br><br>2. Mientras tanto preparar la salsa: Calentar 4 cucharadas de aceite en una olla a fuego medio. Agregar la cebolla, Orégano Gourmet, Albahaca Gourmet, sal y cocinar hasta que la cebolla esté dorada. Agregar el ajo y cocinar por 30 segundos. Agregar los tomates junto al jugo del tarro, a la mezcla de cebolla. Agregar el azúcar y cocinar hasta que la mezcla se haya reducido y espesado, como 30 minutos. Sazonar con sal y pimienta a gusto. Reservar. <br><br>3. Relleno: Cocinar las chalotas en el aceite de oliva hasta que estén transparentes. Agregar los champiñones y las espinacas, cocinar hasta que estén cocidos y se haya evaporado todo el líquido que hayan votado los vegetales. Reservar. <br><br>4. Calentar el horno a 220C. <br><br>5. Una vez que la masa haya reposado, dividirla en dos bolas. Estirar cada masa para cubrir dos moldes (desmontables) de 26 cm, hacer un borde de 5 cm con la masa. Dividir el relleno entre las dos pizza, tapar con el queso mozarella, luego terminar con la salsa de tomates y finalmente espolvorear el queso rallado. <br><br>6. Hornear por 35 a 40 minutos o hasta que el relleno esté caliente y la base esté esponjosa y dorada. Esperar unos minutos antes de desmoldar.
         </div>
+      </div>
     </section>
     <hr class="border border-black border-2 opacity-100">
+    
     <section class="relacionados">
         <h1>RECETAS RELACIONADAS</h1>
         <div class="row row-cols-1 row-cols-md-3 g-4">
@@ -131,16 +142,18 @@
           </div>
     </section>
 
-    <section>
-      <h3>SUSCRÍBETE EN NUESTRO NEWSLETTER</h3>
-      <p>
-        <span>y obtén las mejores recetas que tenemos en</span>
-        <span class="ricomida2">Ricomida</span></p>
-      <button type="button" class="btn btn-outline-light">Light</button>
+    <section class="suscripcion bg-danger text-light text-center position-relative">
+      <div class="position-absolute top-50 start-50 translate-middle">
+        <h3>SUSCRÍBETE EN NUESTRO NEWSLETTER</h3>
+        <p>
+          <span>y obtén las mejores recetas que tenemos en</span>
+          <span class="ricomida2">Ricomida</span></p>
+        <button type="button" class="empezar btn btn-outline-light">Empezar</button>
+      </div>
     </section>
 
-    <footer>
-      <p class="ricomida">Ricomida</p>
+    <footer class="foot customcolor position-relative">
+      <p class="ricomida text-white text-center position-absolute top-50 start-50 translate-middle">Ricomida</p>
     </footer>
 </body>
 </html>
